@@ -29,6 +29,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
@@ -63,7 +64,7 @@
 }
 /* Heading */
 .section-title,
-.task-label-new {
+#section-add .new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +90,7 @@
 }
 
 /* New Task */
-.task-label-new {
+.section-add-title {
   display: block;
   margin: 0 0 20px;
 }
